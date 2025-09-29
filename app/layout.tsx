@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "AI-Powered LCA for Sustainable Aluminum",
   description: "Accelerating Circularity in the Metallurgy Sector - Life Cycle Assessment Tool for Aluminum",
-  generator: "v0.app",
+  generator: "abdullah shaikh",
 }
 
 export default function RootLayout({

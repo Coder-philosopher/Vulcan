@@ -6,42 +6,42 @@ import { ArrowRight, Zap, BarChart3 } from "lucide-react"
 
 function Hero() {
   return (
-    <section className="relative h-screen w-full px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-r from-[#556B2F] to-[#3C5A40]">
-      {/* Background Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-[#f9fafb] to-transparent opacity-80 z-0"></div>
+    <section className="relative h-screen w-full px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-100">
+      {/* Background Overlay with subtle texture */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-white/90 to-blue-100/50 z-0"></div>
 
-      {/* Decorative Blurs */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float z-0"></div>
-      <div
-        className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float z-0"
-        style={{ animationDelay: "1s" }}
-      ></div>
+      {/* Enhanced Decorative Blurs with blue theme */}
+      <div className="absolute top-20 left-10 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl animate-float z-0"></div>
+      <div className="absolute top-40 right-20 w-60 h-60 bg-blue-300/15 rounded-full blur-2xl animate-float z-0" style={{ animationDelay: "0.5s" }}></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl animate-float z-0" style={{ animationDelay: "1s" }}></div>
+      <div className="absolute bottom-40 left-20 w-72 h-72 bg-blue-500/8 rounded-full blur-3xl animate-float z-0" style={{ animationDelay: "1.5s" }}></div>
 
       {/* Content Area */}
       <div className="relative z-10 max-w-5xl mx-auto h-full flex flex-col justify-center items-center text-center">
-        {/* Tagline */}
-        <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-foreground text-sm font-medium mb-8 animate-slide-in">
-          <Zap className="w-4 h-4 mr-2" />
+        {/* Modern Tagline */}
+        <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-blue-100 to-blue-50 border border-blue-200/50 text-blue-700 text-sm font-medium mb-8 animate-slide-in shadow-lg backdrop-blur-sm">
+          <Zap className="w-4 h-4 mr-2 text-blue-600" />
           AI-Powered Sustainability Analytics
         </div>
 
-        {/* Main Heading */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance leading-tight animate-slide-in">
+        {/* Main Heading with enhanced gradient */}
+       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-800 mb-6 text-balance leading-tight animate-slide-in">
           AI-Powered LCA for{" "}
-          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Sustainable Aluminum
+          <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 bg-clip-text text-transparent">
+            Sustainable Materials
           </span>
         </h1>
 
+
         {/* Subtitle */}
         <p
-          className="text-xl sm:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto text-pretty leading-relaxed animate-slide-in"
+          className="text-xl sm:text-2xl text-blue-600/80 mb-10 max-w-3xl mx-auto text-pretty leading-relaxed animate-slide-in font-medium"
           style={{ animationDelay: "0.2s" }}
         >
           Accelerating Circularity in the Metallurgy Sector
         </p>
 
-        {/* Buttons */}
+        {/* Enhanced Buttons */}
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-in"
           style={{ animationDelay: "0.4s" }}
@@ -49,7 +49,7 @@ function Hero() {
           <Button
             asChild
             size="lg"
-            className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground rounded-xl px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-primary/25 transition-all duration-300 group animate-pulse-glow"
+            className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-2xl px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-blue-500/25 transition-all duration-300 group animate-pulse-glow border-0"
           >
             <Link href="/tool">
               Start Assessment
@@ -60,7 +60,7 @@ function Hero() {
             asChild
             variant="outline"
             size="lg"
-            className="rounded-xl px-8 py-4 text-lg font-semibold border-2 hover:bg-muted/50 transition-all duration-300 group bg-transparent"
+            className="rounded-2xl px-8 py-4 text-lg font-semibold border-2 border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all duration-300 group bg-white/80 backdrop-blur-sm shadow-lg"
           >
             <Link href="/about">
               Learn More

@@ -83,7 +83,7 @@ export async function generateLCAPDFReport(data: PDFReportData): Promise<void> {
   addBox(0, 0, pageWidth, 35, [41, 98, 255]) // Blue header
   addText("ALUMINUM LIFE CYCLE ASSESSMENT", 20, 15, 18, "bold", [255, 255, 255])
   addText("Production-Grade Environmental Impact Report", 20, 25, 10, "normal", [255, 255, 255])
-  addText("JNARDDC | Ministry of Mines, Govt. of India", pageWidth - 80, 25, 8, "normal", [255, 255, 255])
+  addText("VULCAN | Team SkyMax, NIT Raipur", pageWidth - 80, 25, 8, "normal", [255, 255, 255])
 
   yPosition = 50
 
@@ -361,7 +361,7 @@ export async function generateLCAPDFReport(data: PDFReportData): Promise<void> {
     "",
     "Report Validation:",
     `• Generated: ${data.generatedAt.toLocaleString()}`,
-    "• Reviewed by: JNARDDC Technical Committee",
+    "• Reviewed by: Team Skymax, NIT Raipur",
     "• Next review due: Annual update recommended",
   ]
 
@@ -384,14 +384,14 @@ export async function generateLCAPDFReport(data: PDFReportData): Promise<void> {
   addLine(yPosition, [203, 213, 225])
   yPosition += 5
   addText(
-    "Jawaharlal Nehru Aluminium Research Development and Design Centre (JNARDDC)",
+    "By Team SkyMax, NIT Raipur.",
     20,
     yPosition,
     8,
     "normal",
     [107, 114, 128],
   )
-  addText("Ministry of Mines, Government of India", 20, yPosition + 8, 8, "normal", [107, 114, 128])
+  addText("Vulcan Technologies", 20, yPosition + 8, 8, "normal", [107, 114, 128])
   addText(
     `Page ${doc.internal.getCurrentPageInfo().pageNumber}`,
     pageWidth - 30,

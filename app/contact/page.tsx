@@ -134,7 +134,7 @@ export default function ContactPage() {
                     { name: "Sahil Tiwari", role: "Developer", color: "green" },
                     { name: "Ayush Mishra", role: "Researcher", color: "purple" },
                     { name: "Adya Singh", role: "Analyst", color: "orange" },
-                    { name: "Anshika Pandy", role: "Analyst", color: "orange" },
+                    { name: "Anshika Pandey", role: "Analyst", color: "orange" },
                   ].map((member, index) => (
                     <div
                       key={index}

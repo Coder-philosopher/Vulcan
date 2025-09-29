@@ -107,7 +107,7 @@ export default function ToolPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-6xl mx-auto  px-4 sm:px-6 lg:px-8 py-20">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">AluminumLCA - Life Cycle Assessment Tool</h1>
         <p className="text-lg text-gray-600 mb-4">
