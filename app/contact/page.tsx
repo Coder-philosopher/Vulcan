@@ -129,11 +129,12 @@ export default function ContactPage() {
                 </h3>
                 <div className="grid grid-cols-1 gap-3">
                   {[
+                    { name: "Abdullah Shaikh", role: "Engineer", color: "red" },
                     { name: "Shani Sao", role: "Team Lead", color: "blue" },
                     { name: "Sahil Tiwari", role: "Developer", color: "green" },
                     { name: "Ayush Mishra", role: "Researcher", color: "purple" },
                     { name: "Adya Singh", role: "Analyst", color: "orange" },
-                    { name: "Abdullah Shaikh", role: "Engineer", color: "red" },
+                    { name: "Anshika Pandy", role: "Analyst", color: "orange" },
                   ].map((member, index) => (
                     <div
                       key={index}

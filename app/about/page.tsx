@@ -108,8 +108,12 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Meet Team SkyMax</h2>
         <div className="grid md:grid-cols-5 gap-4 text-center">
           <div className="bg-white rounded-lg p-4 shadow-sm">
+            <h3 className="font-semibold text-gray-900 mb-1">Abdullah Shaikh</h3>
+            <p className="text-sm text-gray-600">Team-Leader</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 shadow-sm">
             <h3 className="font-semibold text-gray-900 mb-1">Shani Sao</h3>
-            <p className="text-sm text-gray-600">Team Lead</p>
+            <p className="text-sm text-gray-600">Design Lead</p>
           </div>
           <div className="bg-white rounded-lg p-4 shadow-sm">
             <h3 className="font-semibold text-gray-900 mb-1">Sahil Tiwari</h3>
@@ -124,7 +128,7 @@ export default function AboutPage() {
             <p className="text-sm text-gray-600">Analyst</p>
           </div>
           <div className="bg-white rounded-lg p-4 shadow-sm">
-            <h3 className="font-semibold text-gray-900 mb-1">Abdullah Shaikh</h3>
+            <h3 className="font-semibold text-gray-900 mb-1">Anshikha Pandey</h3>
             <p className="text-sm text-gray-600">Engineer</p>
           </div>
         </div>

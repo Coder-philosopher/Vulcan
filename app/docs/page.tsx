@@ -468,11 +468,7 @@ export default function DocsPage() {
                 <span className="text-xl">⚠️</span>
                 Important Disclaimer
               </h3>
-              <p className="text-yellow-700 mb-4">
-                This frontend-only version uses simulated AI calculations based on industry averages and established LCA
-                databases. Production deployment will integrate with actual AI models trained on comprehensive datasets
-                for enhanced accuracy and real-time optimization recommendations.
-              </p>
+              
               <div className="bg-white bg-opacity-50 rounded-lg p-4">
                 <p className="text-sm text-yellow-800">
                   <strong>Developed by Team SkyMax, NIT Raipur:</strong> This tool represents our commitment to

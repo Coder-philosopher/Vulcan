@@ -31,7 +31,7 @@ export function Navigation() {
   return (
     <nav
       className={cn(
-        "fixed top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 ease-in-out",
+        "fixed top-4  left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 ease-in-out",
         "w-[95%] max-w-6xl",
         isScrolled
           ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-black/5 border border-border/50"
@@ -39,19 +39,24 @@ export function Navigation() {
         "rounded-2xl",
       )}
     >
-      <div className="px-6 lg:px-8">
+      <div className="px-6  lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
+          <div className="flex items-center ">
             <Link href="/" className="flex items-center space-x-3 group">
               <div className="relative">
-                <div className="w-10 h-10 bg-blue-700 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-blue-600/25 transition-all duration-300 border border-blue-800">
-                  <span className="text-white font-bold text-sm">AL</span>
-                </div>
+                <div className="w-10 h-10 bg-blue-700 rounded-xl shadow-lg group-hover:shadow-blue-600/25 transition-all duration-300 border border-blue-800 overflow-hidden">
+                <img
+                  src="/logo.png"
+                  alt="Logo"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </div>
+
                 <div className="absolute -inset-1 bg-blue-700 rounded-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 -z-10"></div>
               </div>
               <div className="hidden sm:block">
                 <span className="font-bold text-lg text-foreground group-hover:text-blue-600 transition-colors duration-300">
-                  AluminumLCA
+                  VULCAN
                 </span>
                 <div className="text-xs text-muted-foreground font-medium">AI-Powered</div>
               </div>
@@ -107,7 +112,7 @@ export function Navigation() {
                 side="right"
                 className="w-[300px] sm:w-[400px] bg-white/95 backdrop-blur-xl border-l border-border/50"
               >
-                <nav className="flex flex-col space-y-2 mt-8">
+                <nav className="flex flex-col  space-y-2 mt-8">
                   {navItems.map((item) => (
                     <Link
                       key={item.href}
