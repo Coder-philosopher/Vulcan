@@ -46,7 +46,7 @@ export function ImpactComparisonChart({ currentScenario, linearScenario }: Impac
             Linear: {payload[1].value} {data.unit}
           </p>
           <p className="text-blue-600">
-            Your Scenario: {payload[0].value} {data.unit}
+            Circular Economy: {payload[0].value} {data.unit}
           </p>
           <p className="text-green-600 text-sm">
             Reduction: {Math.round(((payload[1].value - payload[0].value) / payload[1].value) * 100)}%
@@ -65,7 +65,7 @@ export function ImpactComparisonChart({ currentScenario, linearScenario }: Impac
         <YAxis tick={{ fontSize: 12 }} />
         <Tooltip content={<CustomTooltip />} />
         <Legend />
-        <Bar dataKey="current" fill="#2563eb" name="Your Scenario" radius={[2, 2, 0, 0]} />
+        <Bar dataKey="current" fill="#2563eb" name="Circular Economy" radius={[2, 2, 0, 0]} />
         <Bar dataKey="linear" fill="#dc2626" name="Linear Economy" radius={[2, 2, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>

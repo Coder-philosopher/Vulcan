@@ -255,7 +255,7 @@ export function LCAResultsDisplay({ results, inputData, onGeneratePDF }: LCAResu
                 <tr className="border-b">
                   <th className="text-left p-3">Impact Category</th>
                   <th className="text-left p-3">Linear Economy</th>
-                  <th className="text-left p-3">Your Scenario</th>
+                  <th className="text-left p-3">Circular Economy</th>
                   <th className="text-left p-3">Improvement</th>
                 </tr>
               </thead>
