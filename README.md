@@ -13,14 +13,14 @@ The Metal LCA Tool is a sophisticated frontend application that enables users to
 
 ### Key Features
 
-- ** Comprehensive Lifecycle Analysis**: Track Metal from raw material extraction through end-of-life
-- ** AI-Powered Calculations**: Advanced algorithms for environmental impact assessment
-- ** Circularity Scoring**: Quantitative measurement of circular economy principles (0-100 scale)
-- ** Interactive Visualizations**: Charts, gauges, and flow diagrams for data interpretation
-- ** Professional PDF Reports**: Production-grade documentation with charts and analysis
-- ** Environmental Impact Assessment**: Carbon footprint, water usage, energy consumption, and more
+-  **Comprehensive Lifecycle Analysis** : Track Metal from raw material extraction through end-of-life
+- **AI-Powered Calculations**: Advanced algorithms for environmental impact assessment
+- **Circularity Scoring**: Quantitative measurement of circular economy principles (0-100 scale)
+- **Interactive Visualizations**: Charts, gauges, and flow diagrams for data interpretation
+- **Professional PDF Reports**: Production-grade documentation with charts and analysis
+- **Environmental Impact Assessment**: Carbon footprint, water usage, energy consumption, and more
 - **Improvement Recommendations**: Actionable insights for sustainability optimization
-- ** Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
 ##  Technology Stack
 
@@ -53,41 +53,7 @@ The Metal LCA Tool is a sophisticated frontend application that enables users to
 - Node.js 18.0 or higher
 - npm, yarn, or pnpm package manager
 
-### Installation
 
-1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/your-org/Metal-lca-tool.git
-   cd Metal-lca-tool
-   \`\`\`
-
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   \`\`\`
-
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   \`\`\`
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
-
-### Build for Production
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
 
 ## 📖 Usage Guide
 

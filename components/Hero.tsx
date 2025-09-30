@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Zap, BarChart3 } from "lucide-react"
+import { ArrowRight, Zap, BarChart3, Github } from "lucide-react" // Add GitHub import
 
 function Hero() {
   return (
@@ -25,13 +25,12 @@ function Hero() {
         </div>
 
         {/* Main Heading with enhanced gradient */}
-       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-800 mb-6 text-balance leading-tight animate-slide-in">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-800 mb-6 text-balance leading-tight animate-slide-in">
           AI-Powered LCA for{" "}
           <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 bg-clip-text text-transparent">
             Sustainable Materials
           </span>
         </h1>
-
 
         {/* Subtitle */}
         <p
@@ -60,11 +59,26 @@ function Hero() {
             asChild
             variant="outline"
             size="lg"
-            className="rounded-2xl px-8 py-4 text-lg font-semibold border-2 border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all duration-300 group bg-white/80 backdrop-blur-sm shadow-lg"
+            className="rounded-2xl px-8 py-4 text-lg font-semibold border-2 border-blue-200 text-blue-700 hover:bg-blue-50 hover:text-blue-500 hover:border-blue-300 transition-all duration-300 group bg-white/80 backdrop-blur-sm shadow-lg"
           >
             <Link href="/about">
               Learn More
               <BarChart3 className="ml-2 w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
+            </Link>
+          </Button>
+        </div>
+
+        {/* New 'See Code' Button */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8 animate-slide-in">
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="rounded-2xl px-8 py-4 text-lg font-semibold border-2 border-blue-200 text-blue-700 hover:bg-blue-50 hover:text-blue-500 hover:border-blue-300 transition-all duration-300 group bg-white/80 backdrop-blur-sm shadow-lg"
+          >
+            <Link href="https://github.com/Coder-Philosopher/Vulcan" target="_blank">
+              See Code
+              <Github className="ml-2 w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
             </Link>
           </Button>
         </div>
