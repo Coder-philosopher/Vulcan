@@ -19,8 +19,8 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "AI-Powered LCA for Sustainable Aluminum",
-  description: "Accelerating Circularity in the Metallurgy Sector - Life Cycle Assessment Tool for Aluminum",
+  title: "AI-Powered LCA for Sustainable Metals",
+  description: "Accelerating Circularity in the Metallurgy Sector - Life Cycle Assessment Tool for Metals",
   generator: "abdullah shaikh",
 }
 

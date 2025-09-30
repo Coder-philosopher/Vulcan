@@ -7,7 +7,7 @@ export default function DocsPage() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Documentation</h1>
-        <p className="text-xl text-gray-600">Comprehensive guide to using the Aluminum LCA Tool effectively</p>
+        <p className="text-xl text-gray-600">Comprehensive guide to using the Metal LCA Tool effectively</p>
         <div className="mt-4">
           <Badge variant="outline" className="text-sm">
             Developed by Team SkyMax - NIT Raipur

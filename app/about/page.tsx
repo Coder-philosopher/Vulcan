@@ -17,7 +17,7 @@ export default function AboutPage() {
             About Our LCA Tool
           </h1>
           <p className="text-xl text-blue-700/80 max-w-4xl mx-auto leading-relaxed font-medium">
-            Advancing sustainable metallurgy through comprehensive aluminum lifecycle assessment
+            Advancing sustainable metallurgy through comprehensive Metal lifecycle assessment
           </p>
         </div>
 
@@ -27,21 +27,21 @@ export default function AboutPage() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent mb-8">
-                Importance of Circularity in Aluminum
+                Importance of Circularity in Metal
               </h2>
               <div className="space-y-6 text-blue-700/80 leading-relaxed">
                 <p className="text-lg">
-                  Aluminum is one of the most recyclable materials on Earth, with the potential for infinite recycling
+                  Metal is one of the most recyclable materials on Earth, with the potential for infinite recycling
                   without quality loss. However, achieving true circularity requires comprehensive understanding of the
                   entire lifecycle - from bauxite mining to end-of-life recovery.
                 </p>
                 <p className="text-lg">
-                  The aluminum industry faces significant environmental challenges, including high energy consumption during
+                  The Metal industry faces significant environmental challenges, including high energy consumption during
                   primary production and the generation of red mud waste. Our LCA tool helps identify optimization
                   opportunities across the entire value chain.
                 </p>
                 <p className="text-lg">
-                  By implementing circular economy principles, the aluminum sector can reduce its carbon footprint by up to
+                  By implementing circular economy principles, the Metal sector can reduce its carbon footprint by up to
                   75% while maintaining product quality and performance standards.
                 </p>
               </div>
@@ -97,7 +97,7 @@ export default function AboutPage() {
             <CardContent>
               <p className="text-blue-700/80 leading-relaxed text-lg">
                 Proposed and developed by Team SkyMax from NIT Raipur, ensuring cutting-edge research and innovative
-                approaches to sustainable aluminum lifecycle assessment and circular economy principles.
+                approaches to sustainable Metal lifecycle assessment and circular economy principles.
               </p>
             </CardContent>
           </Card>

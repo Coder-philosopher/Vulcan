@@ -254,7 +254,7 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent className="p-6">
               <p className="text-gray-600 mb-4">
-                Need help using the LCA tool or want to learn more about sustainable aluminum practices?
+                Need help using the LCA tool or want to learn more about sustainable Metal practices?
               </p>
               <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-4 border border-purple-100">
                 <h4 className="font-semibold text-gray-900 mb-2">Our Services Include:</h4>
@@ -273,9 +273,9 @@ export default function ContactPage() {
       <div className="mt-16 text-center">
         <Card className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white border-0">
           <CardContent className="p-8">
-            <h2 className="text-2xl font-bold mb-4">Ready to Transform Your Aluminum Operations?</h2>
+            <h2 className="text-2xl font-bold mb-4">Ready to Transform Your Metallic Operations?</h2>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Join leading companies in adopting sustainable aluminum practices. Let Team SkyMax help you achieve your
+              Join leading companies in adopting sustainable Metal practices. Let Team SkyMax help you achieve your
               circular economy goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
